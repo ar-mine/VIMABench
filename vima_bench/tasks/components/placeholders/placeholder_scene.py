@@ -1,6 +1,6 @@
 import os
 import tempfile
-from typing import Callable, Optional, Union, List
+from typing import Callable, Optional, Union, List, Tuple
 
 import cv2
 import numpy as np
@@ -27,7 +27,7 @@ class PlaceholderScene(Placeholder):
         create_scene_fn: Callable,
         assets_root: str,
         views: Optional[Union[str, List[str]]] = None,
-        image_size: tuple[int, int] = (128, 256),
+        image_size: Tuple[int, int] = (128, 256),
         seed: Optional[int] = None,
     ):
         """

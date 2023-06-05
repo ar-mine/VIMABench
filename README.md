@@ -1,3 +1,6 @@
+# ChangeLog
++ Make project available for py38
+
 # VIMA-Bench: Benchmark for Multimodal Robot Learning
 ## ICML 2023
 <div align="center">
